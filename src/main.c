@@ -22,8 +22,8 @@ uint8_t led_b = 100;
 
 int main() {
     stdio_init_all();
-    // Inicializa o led Azul
-    init_led(LED_BLUE);
+    // Inicializa o led VERMELHO
+    init_led(LED_RED);
     
     // Inicialização do botões e configuração de eventos de interrupção
     init_button_with_interrupt(BUTTON_A, GPIO_IRQ_EDGE_FALL, true);
@@ -42,7 +42,7 @@ int main() {
         // 5 ciclos de 200ms totalizando 1 segundo
             // 100ms ligado
             // 100ms desligado
-        blink_led(LED_BLUE, 100, 5);
+        blink_led(LED_RED, 100, 5);
     }
     return 0;
 }
