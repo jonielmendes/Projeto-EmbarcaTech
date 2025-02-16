@@ -15,7 +15,7 @@ O projeto utiliza a placa Raspberry Pi Pico para controlar LEDs e botões. O sis
 
 ## 🎥 Vídeo Demonstrativo
 
-[Link para o vídeo demonstrativo](https://www.youtube.com/)
+[Link para o vídeo demonstrativo]([https://www.youtube.com/](https://youtu.be/LxEd3SO_P20?si=eccqQIezmcAF1f3n))
 
 ## 📂 Estrutura do Projeto
 
