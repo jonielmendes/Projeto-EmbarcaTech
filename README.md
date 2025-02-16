@@ -1,10 +1,17 @@
-# 🚀 Desafio EmbarcaTech 🚀
+# 🚀 Desafio EmbarcaTech! 🚀
 
-Este projeto foi desenvolvido como parte do Desafio EmbarcaTech, utilizando a placa BitDogLab e programado em C/C++. O objetivo é demonstrar o controle de LEDs e botões, além de utilizar interrupções para interação com o usuário.
+Este projeto foi desenvolvido como parte do Desafio EmbarcaTech, utilizando a placa BitDogLab e programado em C. O objetivo é demonstrar o controle de LEDs e botões, além de utilizar interrupções para interação com o usuário.
 
 ## 📌 Descrição do Projeto
 
 O projeto utiliza a placa Raspberry Pi Pico para controlar LEDs e botões. O sistema exibe números em uma matriz de LEDs e permite a interação do usuário através de botões. O código foi escrito em C/C++ e utiliza bibliotecas específicas para manipulação de LEDs, botões e interrupções.
+
+### Funcionalidades
+
+- **Controle de LEDs:** O sistema controla LEDs para exibir números e indicar se o número é ímpar ou par.
+- **Interação com Botões:** O usuário pode interagir com o sistema através de botões para alterar os números exibidos.
+- **Indicação de Paridade:** O LED vermelho acende quando o número é par e o LED azul acende quando o número é ímpar.
+- **Monitor Serial:** O monitor serial exibe mensagens indicando se o número atual é ímpar ou par.
 
 ## 🎥 Vídeo Demonstrativo
 
@@ -12,16 +19,13 @@ O projeto utiliza a placa Raspberry Pi Pico para controlar LEDs e botões. O sis
 
 ## 📂 Estrutura do Projeto
 
-- `src/main.c`: Código principal do projeto.
-- `src/lib/led.c`: Biblioteca para manipulação de LEDs.
-- `src/lib/button.c`: Biblioteca para manipulação de botões.
-- `src/lib/interrupt.c`: Biblioteca para manipulação de interrupções.
-- `src/lib/matrix.c`: Biblioteca para manipulação da matriz de LEDs.
+- `main.c`: Código principal do projeto.
+- `lib/led.c`: Biblioteca para manipulação de LEDs.
+- `lib/button.c`: Biblioteca para manipulação de botões.
+- `lib/interrupt.c`: Biblioteca para manipulação de interrupções.
+- `lib/matrix.c`: Biblioteca para manipulação da matriz de LEDs.
 - `include/`: Diretório contendo os arquivos de cabeçalho das bibliotecas.
 
-## 🖥 Publicação no GitHub
-
-O código completo do projeto está disponível no GitHub: [Link para o repositório](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO)
 
 ## 📑 Documentação
 
@@ -88,16 +92,13 @@ O projeto utiliza o monitor serial para exibir mensagens de depuração. Sempre 
    - Arraste e solte o arquivo `.uf2` gerado para a unidade USB.
 
 4. **Verifique as mensagens no monitor serial:**
-   - Após carregar o programa, você deve ver as mensagens de depuração no monitor serial, como "Inicializando... Número exibido: 0" e "Botão A pressionado. Número atual: X" quando você pressiona os botões.
+   - Após carregar o programa, você deve ver as mensagens de depuração no monitor serial, como "Número X é Par" ou "Número X é Ímpar" quando você pressiona os botões.
 
 ## 📞 Contato
 
 Para mais informações, entre em contato:
 
-- **Nome:** Seu Nome
-- **Email:** seuemail@example.com
-- **GitHub:** [Seu GitHub](https://github.com/SEU_USUARIO)
+- **Nome:** JONIEL MENDES
+- **Email:** jonielmendes237@gmail.com
 
----
 
-Espero que este README ajude a documentar seu projeto de forma clara e completa. Se precisar de mais alguma coisa, estou à disposição!
