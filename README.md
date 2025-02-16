@@ -13,9 +13,8 @@ O projeto utiliza a placa Raspberry Pi Pico para controlar LEDs e botões. O sis
 - **Indicação de Paridade:** O LED vermelho acende quando o número é par e o LED azul acende quando o número é ímpar.
 - **Monitor Serial:** O monitor serial exibe mensagens indicando se o número atual é ímpar ou par.
 
-## 🎥 Vídeo Demonstrativo
-
-[Link para o vídeo demonstrativo]([https://www.youtube.com/](https://youtu.be/LxEd3SO_P20?si=eccqQIezmcAF1f3n))
+🎥 **Vídeo Demonstrativo:**  
+[Assista ao vídeo aqui](https://youtu.be/LxEd3SO_P20?si=eccqQIezmcAF1f3n)
 
 ## 📂 Estrutura do Projeto
 
